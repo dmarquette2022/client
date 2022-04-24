@@ -5,7 +5,252 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: beige;
 }
+
+.display-linebreak {
+  position: absolute;
+  left: 25%;
+  max-width: 750px;
+  inline-size: 120pc;
+  overflow-wrap: break-word;
+}
+
+.run-monkey{
+  outline: none;
+  box-shadow: none;
+  display: inline-flex;
+  max-width: 80%;
+  max-height: 80%;
+  position:absolute;
+  top:25%;
+  right: 30%;
+}
+.container {
+  height: 200px;
+  width: 40%;
+  position: relative;
+  left: 20%;
+  display: inline-block;
+  z-index: 0;
+}
+.ham-style{
+  float: right;
+  top: 50px;
+  right: 10px;
+  position: relative;
+  display: inline-block;
+  width: 10%;
+  min-height: 100px;
+  margin-right: 50px;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  border: 20px solid green;
+  background-color:mediumseagreen;
+}
+
+.ham-number{
+  font-size: 30px;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  
+}
+
+.written-font {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 40px;
+}
+
+.container-words {
+  width: 15%;
+  height: 300px;
+  margin-left: 25px;
+  margin-top: 20px;
+  overflow: scroll;
+  border: 20px solid green;
+  background-color:mediumseagreen;
+  float: left;
+  display: block;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont;
+  text-align: center;
+}
+.special-word{
+  display:grid
+}
+
+.monkey-button {
+  background-image: url('https://static.wikia.nocookie.net/bloonsconception/images/8/83/8-bit.jpg/revision/latest?cb=20140316150851' );
+}
+
+#loader{  
+  position:relative;
+  margin:0 auto;
+  clear:left;
+  height:auto;
+  z-index: 0;
+  text-align:center;/* Add This*/
+}​
+
+.vertical-center {
+  
+  width: 600px;
+  height: 400px;
+}
+
+
+
+/* CSS */
+.button-54 {
+  top:50%;
+  left:50%;
+  position: absolute;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-54:active {
+  box-shadow: 0px 0px 0px 0px;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+@media (min-width: 768px) {
+  .button-54 {
+    padding: 0.25em 0.75em;
+  }
+}
+
+/* CSS */
+.button-85 {
+  z-index: 9;
+  display: inline-flex;
+  position: absolute;
+  padding: 0.6em 2em;
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  top:45%;
+  right: 33%;
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-85:before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing-button-85 20s linear infinite;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+@keyframes glowing-button-85 {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.button-85:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #222;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+/* CSS */
+.button-37 {
+
+  background-color: #13aa52;
+  border: 1px solid #13aa52;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  outline: none;
+  outline: 0;
+  padding: 10px 25px;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.dawords{
+  display: inline-block;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+}
+
+.button-37:hover {
+  box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+  transform: translateY(-2px);
+}
+
+@media (min-width: 768px) {
+  .button-37 {
+    padding: 10px 30px;
+  }
+}
+
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
