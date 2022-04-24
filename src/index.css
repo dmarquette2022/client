@@ -11,8 +11,9 @@ body {
 .display-linebreak {
   position: absolute;
   left: 25%;
-  max-width: 750px;
+  max-width: 75pc;
   inline-size: 120pc;
+  top: 20pc;
   overflow-wrap: break-word;
 }
 
@@ -23,8 +24,8 @@ body {
   max-width: 80%;
   max-height: 80%;
   position:absolute;
-  top:25%;
-  right: 30%;
+  top:8pc;
+  right: 35pc;
 }
 .container {
   height: 200px;
@@ -34,10 +35,19 @@ body {
   display: inline-block;
   z-index: 0;
 }
+.title-card{
+  position: absolute;
+  display: inline;
+  left: -10pc;
+  font-size: 75px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 800;
+}
+
 .ham-style{
   float: right;
-  top: 50px;
-  right: 10px;
+  top: 5pc;
+  right: 10pc;
   position: relative;
   display: inline-block;
   width: 10%;
@@ -69,8 +79,8 @@ body {
 .container-words {
   width: 15%;
   height: 300px;
-  margin-left: 25px;
-  margin-top: 20px;
+  margin-left: 7pc;
+  margin-top: 5pc;
   overflow: scroll;
   border: 20px solid green;
   background-color:mediumseagreen;
