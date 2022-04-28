@@ -82,6 +82,14 @@ body {
 .special-word{
   display:grid
 }
+.title-card{
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 900;
+  font-size: 80px;
+  width: 75pc;
+  margin-left: -220px;
+  margin-top: 7%;
+}
 
 .monkey-button {
   background-image: url('https://static.wikia.nocookie.net/bloonsconception/images/8/83/8-bit.jpg/revision/latest?cb=20140316150851' );

@@ -11,7 +11,7 @@ var ham_cnt = ham.length
 
 
 function generateRandomLetter() {
-  const alphabet = "abcdefghijklmnopqrstuvwxyz"
+  const alphabet = "abcdefghijklmnopqrstuvwxyz "
   return alphabet[Math.floor(Math.random() * alphabet.length)]
 }
 
@@ -130,7 +130,7 @@ class Monkey extends React.Component {
         </div>
 
         <div class = "container">
-          <p>Monkey Typewriter</p>
+          <p class='title-card'>Monkey Typewriter</p>
           <img onClick={this.handleClick} class='run-monkey' src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/063a0654-488d-4258-a226-18f58d51883d/de34gu9-477ecfbf-cf54-4e67-9be1-df9de14e7977.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzA2M2EwNjU0LTQ4OGQtNDI1OC1hMjI2LTE4ZjU4ZDUxODgzZFwvZGUzNGd1OS00NzdlY2ZiZi1jZjU0LTRlNjctOWJlMS1kZjlkZTE0ZTc5NzcuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.PuxnaBZFr2hTGTXxVd8G_n8-e8geyyqU7gWo3aGwp-0"></img>
         </div> 
         <div class='display-linebreak'>
